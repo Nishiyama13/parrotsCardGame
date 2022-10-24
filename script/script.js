@@ -13,8 +13,11 @@ const list = [];
 let openCards = 0;
 let firstCard, secondCard;
 let numberCards = "";
+
 //Iníco do programa
 imputNumber();
+
+//functions
 //Conferir numero de cartas
 function imputNumber() {
   numberCards = Number(
@@ -34,7 +37,6 @@ function imputNumber() {
     }
   } while (numberCards % 2 !== 0 || numberCards < 4 || numberCards > 14);
 }
-//functions
 
 function addCards() {
   const boardGame = document.querySelector(".containerGame");
