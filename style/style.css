@@ -42,7 +42,7 @@ section {
 
   padding-right: 186px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around; /*conferir melhor op*/
   align-items: stretch;
   flex-wrap: wrap;
 }
