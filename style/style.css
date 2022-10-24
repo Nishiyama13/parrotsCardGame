@@ -48,7 +48,6 @@ h2 {
   text-align: center;
 }
 main {
-  /*background-color: chartreuse;*/
   width: 1300px;
   display: flex;
   justify-content: center;
@@ -56,13 +55,12 @@ main {
 }
 
 section {
-  /*background-color: lightcoral;*/
   height: 100%;
   width: 100%;
 
   padding-right: 186px;
   display: flex;
-  justify-content: center; /*conferir melhor op*/
+  justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
 }
@@ -136,13 +134,12 @@ section {
   }
 
   section {
-    /* background-color: lightcoral;*/
     height: 100%;
     width: 100%;
 
     padding-right: 300px;
     display: flex;
-    justify-content: center; /*conferir melhor op*/
+    justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
   }
